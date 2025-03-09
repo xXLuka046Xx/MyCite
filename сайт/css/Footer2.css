@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f6f3;
+    text-align: center;
+}
+.container {
+    max-width: 900px;
+    margin: 50px auto;
+}
+.header {
+    color: red;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.subtext {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+    text-align: left;
+    width: 30%;
+}
+.card img {
+    width: 100%;
+    height: auto;
+}
+.card-content {
+    padding: 15px;
+}
+.card h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+.card p {
+    font-size: 14px;
+    color: #555;
+}
+.footer-link {
+    display: block;
+    margin-top: 20px;
+    color: green;
+    text-decoration: none;
+    font-weight: bold;
+}
+.contact-card {
+    background-color: #ffffff;
+    padding: 80px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    max-width: 400px;
+    position: relative;
+    left: 700px;
+    bottom: 100px;
+    margin-top: 200px;
+    color: black;
+    font-weight: bold;
+}
+.contact-card p{
+    position: relative;
+    font-size: 20px;
+    right: 20px;
+    top: 20px;
+}
+.contact-button {
+    background-color: #2f4f41;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    
+    
+}
+
+.contact-button:hover {
+    background-color: #1f392d;
+}
+.im{
+    position: relative;
+    bottom: 20px;
+}
